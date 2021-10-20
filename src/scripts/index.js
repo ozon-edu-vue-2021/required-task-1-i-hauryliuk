@@ -70,7 +70,7 @@ const showLoader = function() {
 const hideLoader = function() {
   loaderTimeout = setTimeout(function() {
     loader.style.visibility = 'hidden';
-    loaderTimeout.clearTimeout();
+    clearTimeout(loaderTimeout);
   }, 700);
 };
 
