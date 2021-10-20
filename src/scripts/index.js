@@ -182,7 +182,7 @@ const imageHandler = function(evt) {
   evt.preventDefault();
 
   if (evt.target.closest('a')) {
-    getPictureInfo(evt.target.dataset.id);
+    getPictureInfo(evt.target.closest('a').dataset.id);
   }
 };
 
