@@ -41,6 +41,7 @@ main {
   min-height: 100%;
   display: flex;
   justify-content: center;
+  align-items: center;
   flex-direction: column;
   padding: 50px;
   background-color: #fff;
@@ -50,7 +51,7 @@ main {
 }
 
 /* Action style */
-.action {
+.fetch {
   background-color: #66bb6a;
   font-size: 16px;
   padding: 10px 20px;
@@ -58,7 +59,7 @@ main {
   margin: 10px 0;
 }
 
-.action:hover {
+.fetch:hover {
   background-color: #4caf50;
 }
 
@@ -133,7 +134,7 @@ figcaption {
   visibility: visible;
 }
 
-.action {
+.close {
   position: absolute;
   top: 50px;
   right: 50px;
