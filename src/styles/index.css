@@ -94,11 +94,6 @@ a:nth-child(3n) {
 }
 
 /* Popup style */
-.popup .content {
-  text-align: right;
-  column-count: initial;
-}
-
 figure {
   max-width: 100%;
   min-height: 350px;
@@ -106,16 +101,13 @@ figure {
 }
 
 figure img {
+  max-height: 70vh;
   border-radius: 6px;
 }
 
 figcaption {
   color: #424242;
   margin: 5px 0;
-}
-
-.content {
-  border-radius: 6px;
 }
 
 .popup {
@@ -148,15 +140,18 @@ figcaption {
 }
 
 .popup .content {
-  width: 100%;
+  width: auto;
   margin: auto;
   box-sizing: border-box;
   max-width: 600px;
   background-color: #fff;
   border-radius: 6px;
   padding: 20px;
+  text-align: right;
+  column-count: initial;
 }
 
 .popup .link {
   display: inline;
+  background-color: transparent;
 }
