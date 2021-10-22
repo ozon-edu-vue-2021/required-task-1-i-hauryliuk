@@ -115,7 +115,7 @@ const renderPictures = function(list) {
     fragment.appendChild(clone);
   });
 
-  container.replaceChildren(fragment);
+  container.appendChild(fragment);
   hideLoader();
 };
 
